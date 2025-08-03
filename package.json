@@ -1,0 +1,24 @@
+{
+  "name": "pkgversion",
+  "version": "1.0.0",
+  "description": "A tiny Node.js utility to retrieve the installed version of a package.",
+  "license": "MIT",
+  "type": "module",
+  "author": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "homepage": "https://github.com/stabldev/pkgversion#readme",
+  "bugs": {
+    "url": "https://github.com/stabldev/pkgversion/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stabldev/pkgversion.git"
+  },
+  "dependencies": {
+    "is-even": "^1.0.0"
+  }
+}
