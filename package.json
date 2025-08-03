@@ -6,8 +6,10 @@
   "type": "module",
   "author": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "types": "index.d.ts",
+  "exports": {
+    "import": "./index.js",
+    "types": "./index.d.ts"
   },
   "keywords": [],
   "homepage": "https://github.com/stabldev/pkgversion#readme",
@@ -17,8 +19,5 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/stabldev/pkgversion.git"
-  },
-  "dependencies": {
-    "is-even": "^1.0.0"
   }
 }
