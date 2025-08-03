@@ -1,5 +1,5 @@
 {
-  "name": "pkgversion",
+  "name": "@stabldev/pkgversion",
   "version": "1.0.0",
   "description": "A tiny Node.js utility to retrieve the installed version of a package.",
   "license": "MIT",
@@ -27,5 +27,8 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/stabldev/pkgversion.git"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
