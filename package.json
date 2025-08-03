@@ -4,14 +4,22 @@
   "description": "A tiny Node.js utility to retrieve the installed version of a package.",
   "license": "MIT",
   "type": "module",
-  "author": "",
+  "author": "stabldev (https://github.com/stabldev)",
   "main": "index.js",
   "types": "index.d.ts",
   "exports": {
     "import": "./index.js",
     "types": "./index.d.ts"
   },
-  "keywords": [],
+  "sideEffects": false,
+  "keywords": [
+    "package",
+    "version",
+    "node-modules",
+    "npm",
+    "utility",
+    "nodejs"
+  ],
   "homepage": "https://github.com/stabldev/pkgversion#readme",
   "bugs": {
     "url": "https://github.com/stabldev/pkgversion/issues"
